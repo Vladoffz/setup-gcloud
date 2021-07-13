@@ -18,7 +18,7 @@ on:
   push:
     branches:
     - master
-
+    - main
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: cluster-1    # TODO: update to cluster name
